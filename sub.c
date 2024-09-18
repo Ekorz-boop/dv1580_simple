@@ -5,15 +5,11 @@
 // Implement a solution that takes the first two arguments (argv[1] (a1), argv[2] (a2)) and calculate a1-a2. At this point, assume the arguments are positive INTEGERS only, but note. The result can be negative. 
 
 int main(int argc, char *argv[]){
-  int x1 = isdigit(argv[0]);
-  int x2 = isdigit(argv[1]);
-  if (x1 != 0 && x2 != 0) {
-    int a1 = atoi(argv[0]);
-    int a2 = atoi(argv[1]);
-    printf("%d\n", a1-a2);
+  int a1 = atoi(argv[0]);
+  int a2 = atoi(argv[1]);
+  if (a1 < 0 || a2 < 0) {
+    return 0;
   }
-  else {
-    printf("-ERROR-\n");
-  }
+  printf("%d\n", a1-a2);
   return 0;
 }
