@@ -6,8 +6,8 @@
 
 int main(int argc, char *argv[]){
   // Verify that arguments are real numbers
-  int x1 = argv[0].isdigit();
-  int x2 = argv[1].isdigit();
+  int x1 = isdigit(argv[0]);
+  int x2 = isdigit(argv[1]);
   if (x1 != 0 && x2 != 0) {
     double a1 = atof(argv[0]);
     double a2 = atof(argv[1]);
