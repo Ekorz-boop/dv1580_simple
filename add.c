@@ -7,6 +7,7 @@
 int main(int argc, char *argv[]){
   int x1 = isdigit(argv[1]);
   int x2 = isdigit(argv[2]);
+  printf("%d\n", x1);
   if (x1 != 0 && x2 != 0) {
     int a = atoi(argv[1]);
     int b = atoi(argv[2]);
