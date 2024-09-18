@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
+
 
 // Implement a solution that takes the first two arguments (argv[1] (a1), argv[2] (a2)) and calculate a1*a2. Here, verify that the arguments are real numbers.
 
