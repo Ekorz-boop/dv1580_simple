@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
     printf("%d\n", a+b);
   }
   else {
-    printf("-ERROR-");
+    printf("-ERROR-\n");
   }
   return 0;
 }
