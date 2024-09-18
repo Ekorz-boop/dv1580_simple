@@ -13,5 +13,8 @@ int main(int argc, char *argv[]){
     double a2 = atof(argv[1]);
     printf("%f\n", a1*a2);
   }
+  else {
+    return 1;
+  }
   return 0;
 }

@@ -18,5 +18,8 @@ int main(int argc, char *argv[]){
       printf("%f\n", a1/a2);
     }
   }
+  else {
+    return 1;
+  }
   return 0;
 }
