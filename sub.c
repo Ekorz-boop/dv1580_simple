@@ -7,6 +7,7 @@ int main(int argc, char *argv[]){
   int a1 = atoi(argv[0]);
   int a2 = atoi(argv[1]);
   if (a1 <= 0 || a2 <= 0) {
+    prinf("ERROR");
     return 1;
   }
   printf("%d\n", a1-a2);
