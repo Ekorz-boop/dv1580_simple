@@ -10,6 +10,8 @@ int main(int argc, char *argv[]){
   if (a < 0 || b < 0) {
     return 0;
   }
-  printf("%d\n", a+b);
+  else {
+    printf("%d\n", a+b);
+  }
   return 0;
 }
